@@ -15,8 +15,8 @@ Test projects to validate NewUser and AllUser Page:
 - **src/java/dto/UserDto.java** : User info POJO 
 - **src/java/page/** : Package for Page classes. Uses Selenide to create Page Object Model 
 - **src/java/util/** : Package for utility classes. 
-- **src/test/java/test/ui/unit** : Test classes for static checks on elements of NewUser and AllUser Page 
-- **src/test/java/test/ui/usecase** : Test classes for user flow tests 
+- **src/test/java/test/ui/unit/** : Package for Test classes for static checks on elements of NewUser and AllUser Page 
+- **src/test/java/test/ui/usecase/** : Package for Test classes for user flow tests 
 - **src/test/resources/test.properties** : Defines default values for test execution. Like browser and grid url. testng.xml parameters are given precedence.
 
 #### test.properties
